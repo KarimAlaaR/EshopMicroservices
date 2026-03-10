@@ -1,1 +1,11 @@
-<Solution />
+<Solution>
+  <Folder Name="/BuildingBlocks/">
+    <Project Path="BuildingBlocks/BuildingBlocks.csproj" Id="b30ddea7-965c-443f-9207-470a8c86138f" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" />
+  </Folder>
+  <Project Path="eshop-microservices.AppHost/eshop-microservices.AppHost.csproj" Id="f0cef029-ca87-44db-9d9d-3575dd309def" />
+  <Project Path="eshop-microservices.ServiceDefaults/eshop-microservices.ServiceDefaults.csproj" />
+</Solution>
