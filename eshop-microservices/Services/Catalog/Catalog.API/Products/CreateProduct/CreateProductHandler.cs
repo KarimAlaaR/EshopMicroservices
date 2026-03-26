@@ -17,7 +17,6 @@
     {
         public async Task<CreateProductResult> Handle(CreateProductCommand command, CancellationToken cancellationToken)
         {
-            logger.LogInformation("UpdateProductHandler.Handle called with {@Command}", command);
             var product = new Product
             {
                 Name = command.Name,
